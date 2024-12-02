@@ -14,3 +14,11 @@ module.exports = defineConfig({
     }
   }
 })
+
+module.exports = {
+  // Otras configuraciones...
+  routes: {
+    "GET /query": require("./src/api/query/route").GET,
+  },
+}
+
